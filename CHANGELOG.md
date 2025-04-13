@@ -1,3 +1,10 @@
+## [0.1.2] - 2025/04/13
+### UI Fix
+
+### Changed
+- **Contact**:
+    - Image width should not be 100% here
+
 ## [0.1.1] - 2025/04/13
 ### User Auth & UI Enhancements
 
