@@ -1,3 +1,13 @@
+## [0.1.3] - 2025/04/13
+### Logging & Excavation Card
+
+### Added
+- Logging and excavation image, console command
+
+### Changed
+- **Contact**:
+    - Image width should not be 100% here
+
 ## [0.1.2] - 2025/04/13
 ### UI Fix
 
