@@ -1,4 +1,17 @@
-## [0.1.0] - 2025/04/06
+## [0.1.1] - 2025/04/13
+### User Auth & UI Enhancements
+
+### Added
+- **User model**:
+  - `approved` boolean added to control access post-sign-in.
+
+### Changed
+- **Navbar**:
+  - Displays user-specific options when signed in.
+- **Styling**:
+  - Layout and component styles updated with ChatGPT-assisted SCSS improvements.
+
+## [0.1.0] - 2025/04/13
 ### Initial Pre-Release Setup
 
 ### Added
