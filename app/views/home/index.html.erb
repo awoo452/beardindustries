@@ -1,0 +1,17 @@
+<section class="landing-cards">
+  <% if @landing_cards.present? %>
+    <ul>
+      <% @landing_cards.each do |card| %>
+        <li class="landing-card" id="landing-card-<%= card.id %>">
+          <h3><%= card.title %></h3>
+          <p><%= card.description %></p>
+          <% if card.image.present? %>
+            <%= image_tag card.image, alt: card.title %>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>Still working on some new features.</p>
+  <% end %>
+</section>
