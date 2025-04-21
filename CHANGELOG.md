@@ -1,3 +1,12 @@
+## [0.1.4] - 2025/04/20
+### Image Optimization for Landing Cards
+
+### Changed
+- **LandingCard images**:
+  - Standardized to 1080x1080 for better performance and layout consistency.
+- **Contact page**:
+  - Expanded to include business details and social media links.
+ 
 ## [0.1.3] - 2025/04/13
 ### Logging & Excavation Card
 

@@ -104,34 +104,36 @@ nav {
 
 .contact-container {
   text-align: center;
-  padding: 3rem 1rem;
-  max-width: 600px;
-  margin: 0 auto;
+  padding: 2rem;
 
-  .contact-image {
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 1.5rem;
+  img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
   }
 
-  .contact-text {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: #444;
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
   }
 
-  .contact-number {
-    a {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: #007bff;
-      text-decoration: none;
-      transition: color 0.2s ease;
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+  }
 
-      &:hover {
-        color: #0056b3;
-        text-decoration: underline;
-      }
-    }
+  .contact-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .contact-list a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .contact-list a:hover {
+    text-decoration: underline;
   }
 }
