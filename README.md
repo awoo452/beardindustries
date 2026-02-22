@@ -1,24 +1,35 @@
-# README
+# Beard Industries
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Beard Industries is a Rails app for a small business marketing site with landing cards, articles, and a simple admin dashboard.
 
-Things you may want to cover:
+**Features**
+- Home page with LandingCard content.
+- Articles with create/edit/delete (auth required).
+- Contact page.
+- Admin dashboard (auth required).
+- Devise authentication with approval gating.
 
-* Ruby version
+**Tech Stack**
+- Ruby 3.2.2
+- Rails 7.1.5.1
+- PostgreSQL
+- Devise
+- SassC
 
-* System dependencies
+**Local Development**
+1. Install Ruby 3.2.2 and PostgreSQL.
+1. `bundle install`
+1. `bin/rails db:create db:migrate`
+1. `bin/rails server`
 
-* Configuration
+**Admin Workflow**
+- Sign up via Devise.
+- Approve the user in the Rails console:
 
-* Database creation
+```ruby
+user = User.find_by(email: "you@example.com")
+user.update!(approved: true)
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Changelog**
+See `CHANGELOG.md` for notable changes.

@@ -1,3 +1,14 @@
+## [0.1.5] - 2026/02/22
+### Legal + Docs
+
+### Added
+- Terms of Use and Privacy Policy pages.
+- LICENSE file.
+
+### Changed
+- Footer now links to Terms and Privacy.
+- README updated with project overview and setup.
+
 ## [0.1.4] - 2025/04/20
 ### Image Optimization for Landing Cards
 

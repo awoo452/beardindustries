@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   get 'contact', to: 'contact#index'
   get 'dashboard', to: 'dashboard#index'
+  get "/terms", to: "legal#terms"
+  get "/privacy", to: "legal#privacy"
 
   resources :articles
   resources :landing_cards
