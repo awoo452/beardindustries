@@ -1,5 +1,4 @@
 class LandingCardsController < ApplicationController
-  before_action :authenticate_user!
   before_action :set_landing_card, only: %i[ show edit update destroy ]
 
   # GET /landing_cards or /landing_cards.json

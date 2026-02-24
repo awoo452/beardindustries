@@ -1,3 +1,22 @@
+## [0.2.0] - 2026/02/24
+### Database Removal
+
+### Added
+- **LandingCards**:
+  - Static data source at `config/landing_cards.json`.
+
+### Changed
+- **LandingCard model**:
+  - Loads from JSON instead of the database.
+- **Rails config**:
+  - Removed ActiveRecord and ActiveStorage wiring.
+- **Routes & navbar**:
+  - Removed Devise, dashboard, articles, and landing card CRUD links.
+- **Models**:
+  - `User` and `Article` converted to plain models without Devise/ActiveRecord.
+- **Console**:
+  - Updated to reference JSON-backed landing cards.
+
 ## [0.1.5] - 2026/02/22
 ### Legal + Docs
 

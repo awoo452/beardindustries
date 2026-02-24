@@ -1,12 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
   get 'contact', to: 'contact#index'
-  get 'dashboard', to: 'dashboard#index'
-  get "/terms", to: "legal#terms"
-  get "/privacy", to: "legal#privacy"
-
-  resources :articles
-  resources :landing_cards
+  get '/terms', to: 'legal#terms'
+  get '/privacy', to: 'legal#privacy'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
