@@ -1,3 +1,11 @@
+## [0.2.1] - 2026/02/24
+### Runtime Updates
+
+### Changed
+- **Ruby/Rails**:
+  - Pinned Ruby to 4.0.1 and Rails to 8.1.2 to match getawd.
+  - Added `cgi` gem to satisfy Ruby 4 stdlib extraction.
+
 ## [0.2.0] - 2026/02/24
 ### Database Removal
 

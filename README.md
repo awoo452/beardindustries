@@ -10,14 +10,14 @@ Beard Industries is a Rails app for a small business marketing site with landing
 - Devise authentication with approval gating.
 
 **Tech Stack**
-- Ruby 3.2.2
-- Rails 7.1.5.1
+- Ruby 4.0.1
+- Rails 8.1.2
 - PostgreSQL
 - Devise
 - SassC
 
 **Local Development**
-1. Install Ruby 3.2.2 and PostgreSQL.
+1. Install Ruby 4.0.1 and PostgreSQL.
 1. `bundle install`
 1. `bin/rails db:create db:migrate`
 1. `bin/rails server`
