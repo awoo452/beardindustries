@@ -1,14 +1,23 @@
-## [0.2.1] - 2026/02/24
-### Runtime Updates
+# Changelog
+All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/
+spec/v2.0.0.html).
+
+## [0.2.2] - 2026-03-14
+### Added
+- Added ai_dev_agent automation script for routine updates.
+
+### Changed
+- Changelog standardization.
+
+## [0.2.1] - 2026-02-24
 ### Changed
 - **Ruby/Rails**:
   - Pinned Ruby to 4.0.1 and Rails to 8.1.2 to match getawd.
   - Added `cgi` gem to satisfy Ruby 4 stdlib extraction.
 
-## [0.2.0] - 2026/02/24
-### Database Removal
-
+## [0.2.0] - 2026-02-24
 ### Added
 - **LandingCards**:
   - Static data source at `config/landing_cards.json`.
@@ -25,9 +34,7 @@
 - **Console**:
   - Updated to reference JSON-backed landing cards.
 
-## [0.1.5] - 2026/02/22
-### Legal + Docs
-
+## [0.1.5] - 2026-02-22
 ### Added
 - Terms of Use and Privacy Policy pages.
 - LICENSE file.
@@ -36,7 +43,7 @@
 - Footer now links to Terms and Privacy.
 - README updated with project overview and setup.
 
-## [0.1.4] - 2025/04/20
+## [0.1.4] - 2025-04-20
 ### Image Optimization for Landing Cards
 
 ### Changed
@@ -45,7 +52,7 @@
 - **Contact page**:
   - Expanded to include business details and social media links.
  
-## [0.1.3] - 2025/04/13
+## [0.1.3] - 2025-04-13
 ### Logging & Excavation Card
 
 ### Added
@@ -55,14 +62,14 @@
 - **Contact**:
     - Image width should not be 100% here
 
-## [0.1.2] - 2025/04/13
+## [0.1.2] - 2025-04-13
 ### UI Fix
 
 ### Changed
 - **Contact**:
     - Image width should not be 100% here
 
-## [0.1.1] - 2025/04/13
+## [0.1.1] - 2025-04-13
 ### User Auth & UI Enhancements
 
 ### Added
@@ -75,7 +82,7 @@
 - **Styling**:
   - Layout and component styles updated with ChatGPT-assisted SCSS improvements.
 
-## [0.1.0] - 2025/04/13
+## [0.1.0] - 2025-04-13
 ### Initial Pre-Release Setup
 
 ### Added
